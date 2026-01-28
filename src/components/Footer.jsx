@@ -19,10 +19,7 @@ const Footer = () => {
             <p className="text-gray-400 text-sm mb-2">
               © {new Date().getFullYear()} Assistance Technique Uber Eat
             </p>
-            {/* <p className="text-gray-500 text-xs">
-              Ce site n'est pas affilié à Uber Technologies, Inc.
-            </p> */
-            <p className="text-gray-500 text-xs mt-1">
+            { <p className="text-gray-500 text-xs mt-1">
               Contact de l'assistance : +33771677562
             </p>}
           </div>

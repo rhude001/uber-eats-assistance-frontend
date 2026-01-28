@@ -87,7 +87,7 @@ const FormModal = ({ situation, onClose }) => {
       }
       
       // Envoyer au backend
-      const response = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/form/submit`, {        
+      const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/form/submit`, {        
         method: 'POST',
         body: formDataToSend
       });
